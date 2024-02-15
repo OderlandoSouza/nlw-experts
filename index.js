@@ -10,6 +10,7 @@ const perguntas = [
 	  ],
 	  correta: 2
 	},
+
 	{
 	  pergunta: ".Em sistemas de automação, o que representa o acrônimo HMI?",
 	  respostas: [
@@ -123,11 +124,9 @@ const perguntas = [
 	  }
 	  quizItem.querySelector('dl').appendChild(dt)
 	}
-  
-  
+    
 	quizItem.querySelector('dl dt').remove()
-  
-  
+    
 	// coloca a pergunta na tela
 	quiz.appendChild(quizItem)
   }
