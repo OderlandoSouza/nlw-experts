@@ -129,4 +129,17 @@ const perguntas = [
     
 	// coloca a pergunta na tela
 	quiz.appendChild(quizItem)
+
   }
+  
+  function toggleVisibilidade() {
+    var elemento = document.getElementById("acertos");
+
+    if (elemento.style.display === "none") {
+        elemento.style.display = "block";
+    } else {
+        elemento.style.display = "none";
+    }
+}
+  
+  
